@@ -411,9 +411,9 @@
     </style>
 </head>
 
-<body>
+<body style="background-color: #DAE0E6">
     <!-- ================= Navbar ================= -->
-    <div class="bg-white d-flex align-items-center fixed-top shadow px-2" style="min-height: 56px; z-index: 5">
+    <div class="bg-white d-flex align-items-center fixed-top px-2" style="min-height: 56px; z-index: 5">
         <div class="container-fluid">
             <div class="row align-items-center justify-content-around">
                 <!-- logo -->
@@ -543,32 +543,23 @@
                             </li>
                         </ul>
                     </div>
-                    <!-- secondary menu -->
+                    <!-- menu -->
                     <div class="mx-4">
                         <div class="rounded-circle p-1 bg-gray d-flex align-items-center justify-content-center mx-2" type="button" id="secondMenu" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
                             <img src="https://source.unsplash.com/collection/happy-people" class="rounded-circle me-2" alt="avatar" style="width: 38px; height: 38px; object-fit: cover" />
                             <!-- <i class="fas fa-caret-down"></i> -->
                         </div>
-                        <!-- secondary menu dd -->
+                        <!-- secondary menu -->
                         <ul class="dropdown-menu border-0 shadow p-3" aria-labelledby="secondMenu" style="width: 23em">
-                            <!-- avatar -->
-                            <li class="dropdown-item p-1 rounded d-flex">
-                                <img src="https://source.unsplash.com/collection/happy-people" alt="avatar" class="rounded-circle me-2" style="width: 45px; height: 45px; object-fit: cover" />
-                                <div>
-                                    <p class="m-0">Cat</p>
-                                    <p class="m-0 text-muted">cat@gmail.com</p>
-                                </div>
-                            </li>
-                            <hr />
                             <!-- options -->
                             <!-- 1 -->
                             <li class="dropdown-item p-1 my-3 rounded" type="button">
                                 <ul class="navbar-nav">
                                     <li class="nav-item">
                                         <div class="d-flex" data-bs-toggle="dropdown">
-                                            <i class="fas fa-cog bg-gray p-2 rounded-circle"></i>
+                                            <!-- <i class="fas fa-cog bg-gray p-2 rounded-circle"></i> -->
                                             <div class="ms-3 d-flex justify-content-between align-items-center w-100">
-                                                <p class="m-0">Change Profile</p>
+                                                <p class="m-0">Your Profile</p>
                                             </div>
                                         </div>
                                     </li>
@@ -579,7 +570,7 @@
                                 <ul class="navbar-nav">
                                     <li class="nav-item">
                                         <div class="d-flex" data-bs-toggle="dropdown">
-                                            <i class="fas fa-question-circle bg-gray p-2 rounded-circle"></i>
+                                            <!-- <i class="fas fa-question-circle bg-gray p-2 rounded-circle"></i> -->
                                             <div class="ms-3 d-flex justify-content-between align-items-center w-100">
                                                 <p class="m-0">Help & Support</p>
                                             </div>
@@ -593,7 +584,7 @@
                                 <ul class="navbar-nav">
                                     <li class="nav-item">
                                         <a href="#" class="d-flex text-decoration-none text-dark">
-                                            <i class="fas fa-cog bg-gray p-2 rounded-circle"></i>
+                                            <!-- <i class="fas fa-cog bg-gray p-2 rounded-circle"></i> -->
                                             <div class="ms-3 d-flex justify-content-between align-items-center w-100">
                                                 <p class="m-0">Log Out</p>
                                             </div>
